@@ -1,5 +1,9 @@
 # SQL Basics
 
+ Author: Kemmy MO Jones 
+ Date: Nov 18th, 2022.
+ Topic: Code Labs SQL Project Solution.
+
 This folder contains the source code for the SQL Basics codelab.
 
 # Introduction

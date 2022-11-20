@@ -15,11 +15,19 @@
  */
 package com.example.sqlbasics
 
+/*
+Author: Kemmy MO Jones ~ copy from Google Code Labs
+Date: Nov 18th, 2022.
+Topic: Code Labs SQL Project Solution.
+*/
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
+@OptIn(DelicateCoroutinesApi::class)
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,4 +36,4 @@ class MainActivity : AppCompatActivity() {
             AppDatabase.getDatabase(applicationContext).californiaParkDao().getAll()
         }
     }
-}
+} //end: MainActivity
